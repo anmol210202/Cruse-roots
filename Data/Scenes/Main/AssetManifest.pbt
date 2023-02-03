@@ -1,36 +1,54 @@
 Assets {
-  Id: 16910278292812118833
-  Name: "Sun Light"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "CORESKY_SunLight"
-  }
-}
-Assets {
-  Id: 12095835209017042614
-  Name: "Cube"
+  Id: 17240667461765023389
+  Name: "Tree Redwood Big"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_002"
+    AssetId: "sm_tree_redwood_001"
   }
 }
 Assets {
-  Id: 11515840070784317904
-  Name: "Skylight"
-  PlatformAssetType: 6
+  Id: 16953473934650273470
+  Name: "Tree Redwood Big Bare Trunk 01"
+  PlatformAssetType: 1
   PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "CORESKY_Skylight"
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_tree_redwood_001_log_ref"
   }
 }
 Assets {
-  Id: 7887238662729938253
-  Name: "Sky Dome"
-  PlatformAssetType: 6
+  Id: 12075926675540507243
+  Name: "Grass Short"
+  PlatformAssetType: 1
   PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "CORESKY_Sky"
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_grass_generic_002"
+  }
+}
+Assets {
+  Id: 9260076668211413296
+  Name: "Tree Oak 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_tree_oak_001"
+  }
+}
+Assets {
+  Id: 8634414145369220557
+  Name: "Grass Short - Flat 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_grass_generic_002_unlit_ref"
+  }
+}
+Assets {
+  Id: 6057402064345770054
+  Name: "Grass Tall"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_grass_generic_001"
   }
 }
