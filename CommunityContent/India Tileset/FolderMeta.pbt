@@ -1,0 +1,119 @@
+MetaVersion: 1
+MarketplaceDetails {
+  Id: "43646874b22541b499dcc2e331cbfb45"
+  OwnerAccountId: "1748f362ebfd47a386c05fdd015055f1"
+  OwnerName: "Arudo"
+  Version: "1.0.0"
+}
+AssetIdsOriginalToNew {
+  key: 536766717166854009
+  value: 14341066393329041147
+}
+AssetIdsOriginalToNew {
+  key: 650272270919902145
+  value: 7824524548706478926
+}
+AssetIdsOriginalToNew {
+  key: 1105480867074258492
+  value: 11480847293287562901
+}
+AssetIdsOriginalToNew {
+  key: 1456261268484721186
+  value: 14382244975210810917
+}
+AssetIdsOriginalToNew {
+  key: 1457225752344857890
+  value: 16329191492251244012
+}
+AssetIdsOriginalToNew {
+  key: 1743752932351898087
+  value: 15043911008397962219
+}
+AssetIdsOriginalToNew {
+  key: 1802947896959625138
+  value: 7996149707193922537
+}
+AssetIdsOriginalToNew {
+  key: 2421817225838928167
+  value: 15075799224768046329
+}
+AssetIdsOriginalToNew {
+  key: 5685781086324029634
+  value: 4907507544904431282
+}
+AssetIdsOriginalToNew {
+  key: 6281853660776386844
+  value: 15807870255344502596
+}
+AssetIdsOriginalToNew {
+  key: 6605034540771225330
+  value: 1038727548186557067
+}
+AssetIdsOriginalToNew {
+  key: 7179310313045974456
+  value: 14090601940782971303
+}
+AssetIdsOriginalToNew {
+  key: 7925846651558737847
+  value: 17462240251825883825
+}
+AssetIdsOriginalToNew {
+  key: 7937251734608951079
+  value: 7339067544180019187
+}
+AssetIdsOriginalToNew {
+  key: 8899468496361343977
+  value: 17457942841147613545
+}
+AssetIdsOriginalToNew {
+  key: 9564848659182411752
+  value: 14400900489509202762
+}
+AssetIdsOriginalToNew {
+  key: 10423943382545258298
+  value: 14658938682107655569
+}
+AssetIdsOriginalToNew {
+  key: 11497919036031029781
+  value: 8914708966425594921
+}
+AssetIdsOriginalToNew {
+  key: 12379503152178558122
+  value: 16827695662784549286
+}
+AssetIdsOriginalToNew {
+  key: 12980127000620564092
+  value: 6593705056729954597
+}
+AssetIdsOriginalToNew {
+  key: 13014589882890420363
+  value: 15940797098530715938
+}
+AssetIdsOriginalToNew {
+  key: 13205632306356041322
+  value: 519892947710264231
+}
+AssetIdsOriginalToNew {
+  key: 14977797748724074708
+  value: 8060903866083148038
+}
+AssetIdsOriginalToNew {
+  key: 15305110223543150708
+  value: 5483897732035723569
+}
+AssetIdsOriginalToNew {
+  key: 16596211964948877901
+  value: 8386306209995885959
+}
+AssetIdsOriginalToNew {
+  key: 16953830750828587364
+  value: 5646116526144810375
+}
+AssetIdsOriginalToNew {
+  key: 16994290386432253386
+  value: 13192038130382539066
+}
+AssetIdsOriginalToNew {
+  key: 17537731328290997790
+  value: 3143843437210918231
+}

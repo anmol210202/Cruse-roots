@@ -16,6 +16,11 @@ Objects {
   }
   ChildIds: 17154719571187511406
   ChildIds: 14643012150257845338
+  ChildIds: 17240517721883583191
+  ChildIds: 17580899788594360493
+  ChildIds: 17903246201832105195
+  ChildIds: 15341240489057905231
+  ChildIds: 6968778348248885110
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -33,6 +38,299 @@ Objects {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 6968778348248885110
+  Name: "Torch Fire VFX"
+  Transform {
+    Location {
+      X: -2350
+      Y: 9300
+      Z: 1200
+    }
+    Rotation {
+    }
+    Scale {
+      X: 2.75
+      Y: 1
+      Z: 4.5
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 10947511806663931347
+    }
+    TeamSettings {
+    }
+    Vfx {
+      AutoPlay: true
+    }
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:medium"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 15341240489057905231
+  Name: "Torch Metal"
+  Transform {
+    Location {
+      X: -2350
+      Y: 9300
+      Z: 1050
+    }
+    Rotation {
+    }
+    Scale {
+      X: 2.25000167
+      Y: 1
+      Z: 2.25
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 377159667400922669
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 17903246201832105195
+  Name: "UI Container"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Control {
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Canvas {
+      ContentType {
+        Value: "mc:ecanvascontenttype:dynamic"
+      }
+      Opacity: 1
+      IsHUD: true
+      CanvasWorldSize {
+        X: 1024
+        Y: 1024
+      }
+      RedrawTime: 30
+      UseSafeZoneAdjustment: true
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+    }
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 17580899788594360493
+  Name: "UI Container"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Control {
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Canvas {
+      ContentType {
+        Value: "mc:ecanvascontenttype:dynamic"
+      }
+      Opacity: 1
+      IsHUD: true
+      CanvasWorldSize {
+        X: 1024
+        Y: 1024
+      }
+      RedrawTime: 30
+      UseSafeZoneAdjustment: true
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+    }
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 17240517721883583191
+  Name: "Shiva Statue"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 2519972704571627599
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Shiva Statue"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4450
+            Y: 8750
+            Z: 1450
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 10
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 3
+            Y: 3
+            Z: 3
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11141141803293968222
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -125
+            Y: -5
+            Z: 75
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1.5
+            Z: 4.25000048
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8058356307824994870
+    }
+  }
 }
 Objects {
   Id: 14643012150257845338
@@ -168,7 +466,7 @@ Objects {
       Asset {
         Id: 17240667461765023389
       }
-      DistanceBetweenInstances: 2500
+      DistanceBetweenInstances: 5000
       SpawnDistance: 25600
       CullDistance {
         Min: 10000
@@ -270,7 +568,7 @@ Objects {
       Asset {
         Id: 9260076668211413296
       }
-      DistanceBetweenInstances: 3000
+      DistanceBetweenInstances: 5000
       SpawnDistance: 25600
       CullDistance {
         Min: 10000
@@ -324,7 +622,7 @@ Objects {
       Asset {
         Id: 16953473934650273470
       }
-      DistanceBetweenInstances: 7000
+      DistanceBetweenInstances: 8000
       SpawnDistance: 25600
       CullDistance {
         Min: 10000
@@ -433,9 +731,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -50
-            Y: -500
-            Z: 2250
+            X: 33650
+            Y: 17400
+            Z: 800
           }
         }
         Overrides {
@@ -448,7 +746,7 @@ Objects {
         }
         Overrides {
           Name: "bp:Intensity"
-          Float: 5
+          Float: 4.11775064
         }
         Overrides {
           Name: "bp:Light Color"
