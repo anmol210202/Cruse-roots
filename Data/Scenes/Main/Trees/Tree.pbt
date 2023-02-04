@@ -815,7 +815,7 @@ Objects {
     Location {
       X: -8200
       Y: 7700
-      Z: 850
+      Z: 909.204
     }
     Rotation {
     }
@@ -1031,7 +1031,7 @@ Objects {
     Location {
       X: -7450
       Y: 7650
-      Z: 600
+      Z: 659.204
     }
     Rotation {
     }
@@ -1085,7 +1085,7 @@ Objects {
     Location {
       X: -9200
       Y: 7150
-      Z: 600
+      Z: 650
     }
     Rotation {
     }
@@ -2219,7 +2219,7 @@ Objects {
     Location {
       X: -2650
       Y: 11850
-      Z: 450
+      Z: 509.204
     }
     Rotation {
     }
@@ -2273,7 +2273,7 @@ Objects {
     Location {
       X: -2650
       Y: 10900
-      Z: 650
+      Z: 709.204
     }
     Rotation {
     }
@@ -2597,7 +2597,7 @@ Objects {
     Location {
       X: -2550
       Y: 10700
-      Z: 700
+      Z: 759.204
     }
     Rotation {
     }
@@ -2759,7 +2759,7 @@ Objects {
     Location {
       X: -4650
       Y: 10350
-      Z: 950
+      Z: 1009.20398
     }
     Rotation {
     }
@@ -2813,7 +2813,7 @@ Objects {
     Location {
       X: -4500
       Y: 9550
-      Z: 1100
+      Z: 1159.20398
     }
     Rotation {
     }

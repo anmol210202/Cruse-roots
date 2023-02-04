@@ -4,5 +4,24 @@ Assets {
   PlatformAssetType: 30
   SerializationVersion: 123
   VirtualFolderSetAsset {
+    Folders {
+      VirtualFolderPath: "Weapons"
+      PlatformAssetType: 5
+    }
+    Folders {
+      VirtualFolderPath: "Weapons"
+      VirtualFolderPath: "Melee"
+      PlatformAssetType: 5
+    }
+    Folders {
+      VirtualFolderPath: "Weapons"
+      VirtualFolderPath: "Melee"
+      VirtualFolderPath: "Dependecies"
+      PlatformAssetType: 5
+    }
+    Folders {
+      VirtualFolderPath: "Equipment"
+      PlatformAssetType: 3
+    }
   }
 }

@@ -1976,17 +1976,17 @@ Objects {
   Name: "Rock 02"
   Transform {
     Location {
-      X: 25
-      Y: 80
-      Z: 75
+      X: 24.9999275
+      Y: 79.9999084
+      Z: 94.7346573
     }
     Rotation {
       Yaw: -84.999939
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 0.999999762
+      Y: 0.999999762
+      Z: 0.999999762
     }
   }
   ParentId: 5622616253217487172
@@ -2045,9 +2045,9 @@ Objects {
   Name: "Rock Flat 01"
   Transform {
     Location {
-      X: -125
-      Y: -5
-      Z: 75
+      X: -124.99987
+      Y: -4.99999952
+      Z: 94.7346573
     }
     Rotation {
       Pitch: -84.9995728
@@ -2055,8 +2055,8 @@ Objects {
       Roll: -179.999969
     }
     Scale {
-      X: 1
-      Y: 1.5
+      X: 0.999999762
+      Y: 1.49999964
       Z: 4.25000048
     }
   }
