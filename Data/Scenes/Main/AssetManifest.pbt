@@ -26,15 +26,6 @@ Assets {
   }
 }
 Assets {
-  Id: 10947511806663931347
-  Name: "Torch Fire VFX"
-  PlatformAssetType: 8
-  PrimaryAsset {
-    AssetType: "VfxBlueprintAssetRef"
-    AssetId: "fxbp_torch_fire"
-  }
-}
-Assets {
   Id: 9260076668211413296
   Name: "Tree Oak 01"
   PlatformAssetType: 1
@@ -59,14 +50,5 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_grass_generic_001"
-  }
-}
-Assets {
-  Id: 377159667400922669
-  Name: "Torch Metal"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_torch_001"
   }
 }

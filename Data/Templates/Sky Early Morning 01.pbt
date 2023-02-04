@@ -220,31 +220,32 @@ Assets {
         Name: "Sun Light"
         Transform {
           Location {
-            X: -50
-            Z: 300
+            X: 33650
+            Y: 175300
+            Z: 39900
           }
           Rotation {
-            Pitch: -17.1020966
-            Yaw: 22.6643143
-            Roll: 2.61077094
+            Pitch: -17.1021118
+            Yaw: 29.664
+            Roll: 3
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 2000
+            Y: 2000
+            Z: 2000
           }
         }
         ParentId: 51842692516367270
         UnregisteredParameters {
           Overrides {
             Name: "bp:Intensity"
-            Float: 3.5
+            Float: 5
           }
           Overrides {
             Name: "bp:Light Color"
             Color {
-              R: 0.89
-              G: 0.300596029
+              R: 0.789999962
+              G: 0.345298
               A: 1
             }
           }
@@ -290,6 +291,10 @@ Assets {
             Name: "bp:Shape"
             Int: 0
           }
+          Overrides {
+            Name: "bp:Cast Shadows"
+            Bool: true
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -320,6 +325,7 @@ Assets {
           Location {
             X: 250
             Y: 300
+            Z: 1900
           }
           Rotation {
           }
@@ -356,7 +362,7 @@ Assets {
           }
           Overrides {
             Name: "bp:Intensity"
-            Float: 0.9
+            Float: 0.789794385
           }
           Overrides {
             Name: "bp:Blend Target Image"

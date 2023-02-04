@@ -1,0 +1,79 @@
+MetaVersion: 1
+MarketplaceDetails {
+  Id: "8f36ddf1db3a491fa568d65a9b9b0a2c"
+  OwnerAccountId: "ce4e0333fa0c450dab71ea464a587ea7"
+  OwnerName: "DrYogi11"
+  Version: "1.0.0"
+}
+AssetIdsOriginalToNew {
+  key: 1550957688479369622
+  value: 3609939336945122136
+}
+AssetIdsOriginalToNew {
+  key: 1835540321049049823
+  value: 1418942187424174629
+}
+AssetIdsOriginalToNew {
+  key: 1992110847396742052
+  value: 946328401289377857
+}
+AssetIdsOriginalToNew {
+  key: 2533565042730930338
+  value: 2037378634410732806
+}
+AssetIdsOriginalToNew {
+  key: 2546897977375553923
+  value: 13580267176914960794
+}
+AssetIdsOriginalToNew {
+  key: 4770401766237270975
+  value: 7625559957751898194
+}
+AssetIdsOriginalToNew {
+  key: 6181511193565127490
+  value: 10701508123437418668
+}
+AssetIdsOriginalToNew {
+  key: 6374138505540134049
+  value: 17644735164059255853
+}
+AssetIdsOriginalToNew {
+  key: 6459064337612743994
+  value: 11246915255808445304
+}
+AssetIdsOriginalToNew {
+  key: 7341373087636839218
+  value: 16080633230457619896
+}
+AssetIdsOriginalToNew {
+  key: 12709165861911682461
+  value: 18053997203335099072
+}
+AssetIdsOriginalToNew {
+  key: 14453874206034646682
+  value: 1205498191980889051
+}
+AssetIdsOriginalToNew {
+  key: 16649609434099009132
+  value: 681240017706576624
+}
+AssetIdsOriginalToNew {
+  key: 17178474103134151806
+  value: 15068594619100797757
+}
+AssetIdsOriginalToNew {
+  key: 17329098504987207387
+  value: 2319954694925888132
+}
+AssetIdsOriginalToNew {
+  key: 17848442111408172574
+  value: 10345001516376429289
+}
+AssetIdsOriginalToNew {
+  key: 17911814705306053986
+  value: 2707894850553618752
+}
+AssetIdsOriginalToNew {
+  key: 18148261467382426624
+  value: 691723171755705741
+}
