@@ -56,16 +56,11 @@ Objects {
   ChildIds: 16438394534086042395
   ChildIds: 15356249182807026094
   ChildIds: 9896747464946225212
-  ChildIds: 4488889142440671002
-  ChildIds: 11628906264714756427
-  ChildIds: 3067372697403624939
-  ChildIds: 12818653978817265746
-  ChildIds: 12951361495887875660
-  ChildIds: 6292179133196809733
-  ChildIds: 7474302276266339133
-  ChildIds: 4571303617669463085
-  ChildIds: 6417395991646701825
-  ChildIds: 15843783830639386791
+  ChildIds: 16396932413802674127
+  ChildIds: 9095955023767042584
+  ChildIds: 2323969979604321103
+  ChildIds: 12840441249503832671
+  ChildIds: 6288606845093824509
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -85,16 +80,9 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15843783830639386791
-  Name: "Torch Fire VFX"
+  Id: 6288606845093824509
+  Name: "Cinematic Trigger Player"
   Transform {
-    Location {
-      X: -21970
-      Y: 3660
-      Z: 900
-    }
-    Rotation {
-    }
     Scale {
       X: 1
       Y: 1
@@ -102,774 +90,77 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 10947511806663931347
-    }
-    TeamSettings {
-    }
-    Vfx {
-      AutoPlay: true
-    }
-  }
-  Relevance {
-    Value: "mc:edistancerelevance:medium"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 6417395991646701825
-  Name: "Torch Fire VFX"
-  Transform {
-    Location {
-      X: -20950
-      Y: 3620
-      Z: 900
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 10947511806663931347
-    }
-    TeamSettings {
-    }
-    Vfx {
-      AutoPlay: true
-    }
-  }
-  Relevance {
-    Value: "mc:edistancerelevance:medium"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 4571303617669463085
-  Name: "Area Light"
-  Transform {
-    Location {
-      X: -22603.2598
-      Y: 2125.00024
-      Z: 900
-    }
-    Rotation {
-      Yaw: 30
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Light {
-    Intensity: 20.2355766
-    Color {
-      R: 1
-      G: 1
-      B: 1
-      A: 1
-    }
-    VolumetricIntensity: 5
-    TeamSettings {
-    }
-    Light {
-      Temperature: 6500
-      LocalLight {
-        AttenuationRadius: 10000
-        AreaLight {
-          BarnDoorAngle: 50
-          BarnDoorLength: 20
-          SourceWidth: 500
-          SourceHeight: 500
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6809074725687764994
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Cinematic Trigger Player"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -20350
+            Y: 8750
+            Z: 100
+          }
+        }
+        Overrides {
+          Name: "cs:BroadcastEvent"
+          String: "SecondCutScene"
         }
       }
-      MaxDrawDistance: 5000
-      MaxDistanceFadeRange: 1000
     }
-    ShadowBias: 0.4
-    ShadowSlopeBias: 0.6
-  }
-  Relevance {
-    Value: "mc:edistancerelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 7474302276266339133
-  Name: "Area Light"
-  Transform {
-    Location {
-      X: -21797.7
-      Y: 3835.34961
-      Z: 1000
-    }
-    Rotation {
-      Yaw: -85
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Light {
-    Intensity: 20.2355766
-    Color {
-      R: 1
-      G: 1
-      B: 1
-      A: 1
-    }
-    VolumetricIntensity: 5
-    TeamSettings {
-    }
-    Light {
-      Temperature: 6500
-      LocalLight {
-        AttenuationRadius: 10000
-        AreaLight {
-          BarnDoorAngle: 50
-          BarnDoorLength: 20
-          SourceWidth: 500
-          SourceHeight: 500
+    ParameterOverrideMap {
+      key: 9584531836928262295
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -950
+            Y: -2850
+            Z: 300
+          }
         }
       }
-      MaxDrawDistance: 5000
-      MaxDistanceFadeRange: 1000
     }
-    ShadowBias: 0.4
-    ShadowSlopeBias: 0.6
-  }
-  Relevance {
-    Value: "mc:edistancerelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 6292179133196809733
-  Name: "Sun Light"
-  Transform {
-    Location {
-      X: -21300
-      Y: 6100
-      Z: 750
-    }
-    Rotation {
-      Pitch: -10.3970337
-      Yaw: -84.9356689
-      Roll: 4.10275745
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Intensity"
-      Float: 0.925399899
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 16910278292812118833
-    }
-    TeamSettings {
-    }
-  }
-  Relevance {
-    Value: "mc:edistancerelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 12951361495887875660
-  Name: "Torch Metal"
-  Transform {
-    Location {
-      X: -20900
-      Y: 6150
-      Z: 350
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1.5
-      Z: 2
-    }
-  }
-  ParentId: 4781671109827199097
-  ChildIds: 13716425908972522667
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 10313086063742082706
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
+    ParameterOverrideMap {
+      key: 11606419823569200442
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: -150
+            Z: 50
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -40
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 7.99999857
+            Y: 2
+            Z: 2
+          }
+        }
       }
-      BoundsScale: 1
+    }
+    TemplateAsset {
+      Id: 15187222691176762017
     }
   }
-  Relevance {
-    Value: "mc:edistancerelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13716425908972522667
-  Name: "Torch Fire VFX"
+  Id: 12840441249503832671
+  Name: "CinematicShot"
   Transform {
     Location {
-      Z: 50
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 0.999999881
-      Z: 1
-    }
-  }
-  ParentId: 12951361495887875660
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Emissive Boost"
-      Float: 23.210516
-    }
-    Overrides {
-      Name: "bp:Particle Scale Multiplier"
-      Float: 1.84916914
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 10947511806663931347
-    }
-    TeamSettings {
-    }
-    Vfx {
-      AutoPlay: true
-    }
-  }
-  Relevance {
-    Value: "mc:edistancerelevance:medium"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 12818653978817265746
-  Name: "Torch Metal"
-  Transform {
-    Location {
-      X: -21800
-      Y: 6150
-      Z: 450
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1.5
-      Z: 2
-    }
-  }
-  ParentId: 4781671109827199097
-  ChildIds: 9747146749870664623
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 10313086063742082706
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:edistancerelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 9747146749870664623
-  Name: "Torch Fire VFX"
-  Transform {
-    Location {
-      Z: 50
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 0.999999881
-      Z: 1
-    }
-  }
-  ParentId: 12818653978817265746
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Emissive Boost"
-      Float: 23.210516
-    }
-    Overrides {
-      Name: "bp:Particle Scale Multiplier"
-      Float: 1.84916914
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 10947511806663931347
-    }
-    TeamSettings {
-    }
-    Vfx {
-      AutoPlay: true
-    }
-  }
-  Relevance {
-    Value: "mc:edistancerelevance:medium"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 3067372697403624939
-  Name: "Torch Metal"
-  Transform {
-    Location {
-      X: -20750
-      Y: 5550
-      Z: 400
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1.5
-      Z: 2
-    }
-  }
-  ParentId: 4781671109827199097
-  ChildIds: 13972894066146614635
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 10313086063742082706
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:edistancerelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 13972894066146614635
-  Name: "Torch Fire VFX"
-  Transform {
-    Location {
-      Z: 50
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 0.999999881
-      Z: 1
-    }
-  }
-  ParentId: 3067372697403624939
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Emissive Boost"
-      Float: 23.210516
-    }
-    Overrides {
-      Name: "bp:Particle Scale Multiplier"
-      Float: 1.84916914
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 10947511806663931347
-    }
-    TeamSettings {
-    }
-    Vfx {
-      AutoPlay: true
-    }
-  }
-  Relevance {
-    Value: "mc:edistancerelevance:medium"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 11628906264714756427
-  Name: "Torch Metal"
-  Transform {
-    Location {
-      X: -21850
-      Y: 5600
-      Z: 450
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1.5
-      Z: 2
-    }
-  }
-  ParentId: 4781671109827199097
-  ChildIds: 15180531498729004502
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 10313086063742082706
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:edistancerelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 15180531498729004502
-  Name: "Torch Fire VFX"
-  Transform {
-    Location {
-      Z: 50
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 0.999999881
-      Z: 1
-    }
-  }
-  ParentId: 11628906264714756427
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Emissive Boost"
-      Float: 23.210516
-    }
-    Overrides {
-      Name: "bp:Particle Scale Multiplier"
-      Float: 1.84916914
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 10947511806663931347
-    }
-    TeamSettings {
-    }
-    Vfx {
-      AutoPlay: true
-    }
-  }
-  Relevance {
-    Value: "mc:edistancerelevance:medium"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 4488889142440671002
-  Name: "Torch Metal"
-  Transform {
-    Location {
-      X: -20800
-      Y: 5250
-      Z: 449.999969
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 2
-    }
-  }
-  ParentId: 4781671109827199097
-  ChildIds: 6825520805256585449
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 10313086063742082706
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:edistancerelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 6825520805256585449
-  Name: "Torch Fire VFX"
-  Transform {
-    Location {
-      Z: 100
     }
     Rotation {
     }
@@ -879,17 +170,136 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4488889142440671002
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Emissive Boost"
-      Float: 17.8193932
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 10467714333780274479
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -22787.3457
+            Y: 7294.53027
+            Z: 835.211304
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 4.61521339
+            Yaw: -74.2625732
+            Roll: 2.14137728e-07
+          }
+        }
+        Overrides {
+          Name: "CameraFieldOfView"
+          Float: 100
+        }
+      }
     }
-    Overrides {
-      Name: "bp:Particle Scale Multiplier"
-      Float: 1.34086323
+    ParameterOverrideMap {
+      key: 11337539924846704978
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -22787.3457
+            Y: 7294.53027
+            Z: 835.211304
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -7.69491577
+            Yaw: 11.2582788
+          }
+        }
+        Overrides {
+          Name: "CameraFieldOfView"
+          Float: 100
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16121779860319454006
+      value {
+        Overrides {
+          Name: "Name"
+          String: "CinematicShot"
+        }
+        Overrides {
+          Name: "cs:SequenceNumber"
+          Int: 1
+        }
+        Overrides {
+          Name: "cs:LookAtTarget"
+          Bool: true
+        }
+        Overrides {
+          Name: "cs:LookAtPlayer"
+          Bool: false
+        }
+        Overrides {
+          Name: "cs:PlayOnKey"
+          String: "ability_extra_45"
+        }
+        Overrides {
+          Name: "cs:PlayOnEvent"
+          String: "SecondCutScene"
+        }
+        Overrides {
+          Name: "cs:Duration"
+          Float: 10
+        }
+        Overrides {
+          Name: "cs:UseEaseFunction"
+          Bool: true
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 2509330397918317041
     }
   }
+}
+Objects {
+  Id: 2323969979604321103
+  Name: "Tree Oak 01"
+  Transform {
+    Location {
+      X: -15200
+      Y: 4700
+      Z: 50
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -902,23 +312,208 @@ Objects {
   EditorIndicatorVisibility {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
-  Blueprint {
-    BlueprintAsset {
-      Id: 10947511806663931347
+  CoreMesh {
+    MeshAsset {
+      Id: 9260076668211413296
     }
-    TeamSettings {
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
     }
-    Vfx {
-      AutoPlay: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
     }
   }
   Relevance {
-    Value: "mc:edistancerelevance:medium"
+    Value: "mc:edistancerelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 9095955023767042584
+  Name: "Cinematic Trigger Player"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6809074725687764994
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Cinematic Trigger Player"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -10836.3467
+            Y: 6412.2207
+            Z: 1334.84497
+          }
+        }
+        Overrides {
+          Name: "cs:BroadcastEvent"
+          String: "EnterTomb"
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9584531836928262295
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -100
+            Y: 150
+            Z: -50
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11606419823569200442
+      value {
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 3
+            Y: 11
+            Z: 5
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 136.34668
+            Y: -12.2207031
+            Z: -984.845
+          }
+        }
+        Overrides {
+          Name: "Name"
+          String: "Trigger"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 15187222691176762017
+    }
+  }
+}
+Objects {
+  Id: 16396932413802674127
+  Name: "CinematicShot"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 10467714333780274479
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -10022.418
+            Y: 6333.69336
+            Z: 1400.61353
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 1.23705649
+            Yaw: -20.1377563
+          }
+        }
+        Overrides {
+          Name: "CameraFieldOfView"
+          Float: 100
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11337539924846704978
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -11290.0332
+            Y: 6804.4
+            Z: 1367.29993
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 0.0972413942
+            Yaw: -20.506897
+          }
+        }
+        Overrides {
+          Name: "CameraFieldOfView"
+          Float: 100
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16121779860319454006
+      value {
+        Overrides {
+          Name: "Name"
+          String: "CinematicShot"
+        }
+        Overrides {
+          Name: "cs:SequenceNumber"
+          Int: 1
+        }
+        Overrides {
+          Name: "cs:LookAtTarget"
+          Bool: true
+        }
+        Overrides {
+          Name: "cs:LookAtPlayer"
+          Bool: false
+        }
+        Overrides {
+          Name: "cs:PlayOnKey"
+          String: "ability_extra_45"
+        }
+        Overrides {
+          Name: "cs:PlayOnEvent"
+          String: "EnterTomb"
+        }
+        Overrides {
+          Name: "cs:Duration"
+          Float: 10
+        }
+        Overrides {
+          Name: "cs:UseEaseFunction"
+          Bool: true
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 2509330397918317041
+    }
+  }
 }
 Objects {
   Id: 9896747464946225212
@@ -961,9 +556,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -9850
-      Y: 6100
-      Z: 600
+      X: -11200
+      Y: 6400
+      Z: 250
     }
     Rotation {
     }
@@ -2023,6 +1618,17 @@ Objects {
           Name: "Rotation"
           Rotator {
             Yaw: -85
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7089654655840687501
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: -50
           }
         }
       }
