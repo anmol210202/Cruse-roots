@@ -23,6 +23,7 @@ Objects {
   ChildIds: 14903463249410347698
   ChildIds: 16401151418752985529
   ChildIds: 3057078112472650110
+  ChildIds: 8661267903178246042
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -35,6 +36,49 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 8661267903178246042
+  Name: "Spawn Point"
+  Transform {
+    Location {
+      X: -10150
+      Y: 6200
+      Z: 500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
+  PlayerSpawnPoint {
+    TeamInt: 1
+    PlayerScaleMultiplier: 1
+    SpawnEffectsTemplate {
+      Id: 841534158063459245
+    }
+    ShouldDecrowdPlayers: true
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -515,6 +559,7 @@ Objects {
       }
       DistanceBetweenInstances: 5000
       SpawnDistance: 25600
+      EnableCollision: true
       CullDistance {
         Min: 10000
         Max: 20000
@@ -617,6 +662,7 @@ Objects {
       }
       DistanceBetweenInstances: 4000
       SpawnDistance: 25600
+      EnableCollision: true
       CullDistance {
         Min: 10000
         Max: 20000
@@ -671,6 +717,7 @@ Objects {
       }
       DistanceBetweenInstances: 8000
       SpawnDistance: 25600
+      EnableCollision: true
       CullDistance {
         Min: 10000
         Max: 20000
