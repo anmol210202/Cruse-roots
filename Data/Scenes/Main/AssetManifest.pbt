@@ -17,6 +17,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12451624011150827267
+  Name: "Animated Glowing Hex"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxma_hex_animated"
+  }
+}
+Assets {
   Id: 12075926675540507243
   Name: "Grass Short"
   PlatformAssetType: 1
@@ -50,6 +59,24 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_grass_generic_002_unlit_ref"
+  }
+}
+Assets {
+  Id: 8375575103126610230
+  Name: "Emissive Glow Transparent"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_basic_emissive_001"
+  }
+}
+Assets {
+  Id: 6640175192592813417
+  Name: "Energy Tube Glow"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "Energy_Tube_Glow"
   }
 }
 Assets {
