@@ -26,6 +26,15 @@ Assets {
   }
 }
 Assets {
+  Id: 11694338263858803265
+  Name: "Fantasy Shield 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Weapon_Shield_001"
+  }
+}
+Assets {
   Id: 9260076668211413296
   Name: "Tree Oak 01"
   PlatformAssetType: 1

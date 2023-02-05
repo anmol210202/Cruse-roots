@@ -1,0 +1,95 @@
+MetaVersion: 1
+MarketplaceDetails {
+  Id: "83d672c94403441ea1bd0bf903bd0260"
+  OwnerAccountId: "e8e9fff8a33e402bb51f8a8dc44b053c"
+  OwnerName: "justinmcintyre911"
+  Version: "1.0.0"
+}
+AssetIdsOriginalToNew {
+  key: 206958187946143995
+  value: 12951735271688326347
+}
+AssetIdsOriginalToNew {
+  key: 1734730336196954051
+  value: 13241867812964597162
+}
+AssetIdsOriginalToNew {
+  key: 2362339105513285738
+  value: 17631492736302617277
+}
+AssetIdsOriginalToNew {
+  key: 2439653091652048454
+  value: 6451861309950608130
+}
+AssetIdsOriginalToNew {
+  key: 2487951830783035164
+  value: 15305818407371083913
+}
+AssetIdsOriginalToNew {
+  key: 3246379752714822721
+  value: 13421232039456401780
+}
+AssetIdsOriginalToNew {
+  key: 6327387438506724115
+  value: 10923792258515732641
+}
+AssetIdsOriginalToNew {
+  key: 6397045739647183615
+  value: 1938804927572835713
+}
+AssetIdsOriginalToNew {
+  key: 6488418224745699793
+  value: 13372959244147041057
+}
+AssetIdsOriginalToNew {
+  key: 7387867826060042763
+  value: 4057504540308924698
+}
+AssetIdsOriginalToNew {
+  key: 7489434457666315208
+  value: 16263559766082049547
+}
+AssetIdsOriginalToNew {
+  key: 8036892712196384818
+  value: 11686910704648318287
+}
+AssetIdsOriginalToNew {
+  key: 8379083082385927416
+  value: 6493317148856759007
+}
+AssetIdsOriginalToNew {
+  key: 10203200030029903372
+  value: 6500325728074963368
+}
+AssetIdsOriginalToNew {
+  key: 11271788206889596867
+  value: 8733985675166391726
+}
+AssetIdsOriginalToNew {
+  key: 14710617437272555929
+  value: 8490834051479384521
+}
+AssetIdsOriginalToNew {
+  key: 15309716730528354328
+  value: 1612108936216894820
+}
+AssetIdsOriginalToNew {
+  key: 16143453707696718719
+  value: 3182600197928335559
+}
+AssetIdsOriginalToNew {
+  key: 16676592459903630293
+  value: 9136065451404021655
+}
+AssetIdsOriginalToNew {
+  key: 17042516453398035872
+  value: 9511792715003061446
+}
+AssetIdsOriginalToNew {
+  key: 17207462250308931470
+  value: 7413390314035377000
+}
+AssetIdsOriginalToNew {
+  key: 17536332888242340562
+  value: 5013689600320962433
+}

@@ -61,6 +61,11 @@ Objects {
   ChildIds: 2323969979604321103
   ChildIds: 12840441249503832671
   ChildIds: 6288606845093824509
+  ChildIds: 5115896464522230663
+  ChildIds: 7317339820114764258
+  ChildIds: 12668050331500233154
+  ChildIds: 11805910777218211137
+  ChildIds: 7228758712963023848
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -76,6 +81,257 @@ Objects {
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 7228758712963023848
+  Name: "Autumn 1"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6422575551394108509
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Autumn 1"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -12650
+            Y: 5600
+            Z: -200
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 4460884357305912296
+    }
+  }
+}
+Objects {
+  Id: 11805910777218211137
+  Name: "Magic Circle Healing"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 7481651834544290403
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Magic Circle Healing"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -10750
+            Y: 1950
+            Z: 100
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 17475035818564465931
+    }
+  }
+}
+Objects {
+  Id: 12668050331500233154
+  Name: "Abilities"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 3609329526430040014
+      value {
+        Overrides {
+          Name: "KeyBinding"
+          Enum {
+            Value: "mc:egameaction:extraaction_03"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 5145591742856372129
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -50
+            Y: -200
+            Z: 50
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 2.25000024
+            Z: 4.75
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10626221929933860631
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Abilities"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -10750
+            Y: 2200
+            Z: 150
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 18168487654928777293
+      value {
+        Overrides {
+          Name: "KeyBinding"
+          Enum {
+            Value: "mc:egameaction:extraaction_45"
+          }
+        }
+        Overrides {
+          Name: "CooldownDuration"
+          Float: 60
+        }
+        Overrides {
+          Name: "CanActivateWhileDead"
+          Bool: false
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6265801527181012161
+    }
+  }
+}
+Objects {
+  Id: 7317339820114764258
+  Name: "NPC"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "NPC"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 5115896464522230663
+  Name: "UI Container"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Control {
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Canvas {
+      ContentType {
+        Value: "mc:ecanvascontenttype:dynamic"
+      }
+      Opacity: 1
+      IsHUD: true
+      CanvasWorldSize {
+        X: 1024
+        Y: 1024
+      }
+      RedrawTime: 30
+      UseSafeZoneAdjustment: true
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+    }
   }
   IsReplicationEnabledByDefault: true
 }
@@ -1763,6 +2019,12 @@ Objects {
           Rotator {
           }
         }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: -25
+          }
+        }
       }
     }
     ParameterOverrideMap {
@@ -1771,6 +2033,12 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: 105
           }
         }
       }
@@ -2133,6 +2401,14 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Fantasy Shield 001"
+      AssetReference {
+        Id: 11694338263858803265
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceon"
   }

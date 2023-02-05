@@ -1,0 +1,96 @@
+MetaVersion: 1
+MarketplaceDetails {
+  Id: "83d672c94403441ea1bd0bf903bd0260"
+  OwnerAccountId: "e8e9fff8a33e402bb51f8a8dc44b053c"
+  OwnerName: "justinmcintyre911"
+  Version: "1.0.0"
+}
+AssetIdsOriginalToNew {
+  key: 206958187946143995
+  value: 16090904875665686418
+}
+AssetIdsOriginalToNew {
+  key: 1734730336196954051
+  value: 12216172642957474140
+}
+AssetIdsOriginalToNew {
+  key: 2362339105513285738
+  value: 5458660645091546225
+}
+AssetIdsOriginalToNew {
+  key: 2439653091652048454
+  value: 813630204708162798
+}
+AssetIdsOriginalToNew {
+  key: 2487951830783035164
+  value: 1523568834416482414
+}
+AssetIdsOriginalToNew {
+  key: 3246379752714822721
+  value: 3545050652636820285
+}
+AssetIdsOriginalToNew {
+  key: 6327387438506724115
+  value: 17032326039012744230
+}
+AssetIdsOriginalToNew {
+  key: 6397045739647183615
+  value: 18221392141825569144
+}
+AssetIdsOriginalToNew {
+  key: 6488418224745699793
+  value: 6948924125588985145
+}
+AssetIdsOriginalToNew {
+  key: 7387867826060042763
+  value: 3257014669434435934
+}
+AssetIdsOriginalToNew {
+  key: 7489434457666315208
+  value: 6129291978225889745
+}
+AssetIdsOriginalToNew {
+  key: 8036892712196384818
+  value: 13873981903545801945
+}
+AssetIdsOriginalToNew {
+  key: 8379083082385927416
+  value: 5316117910268600027
+}
+AssetIdsOriginalToNew {
+  key: 10203200030029903372
+  value: 4729985248260128948
+}
+AssetIdsOriginalToNew {
+  key: 11271788206889596867
+  value: 6466651398099120643
+}
+AssetIdsOriginalToNew {
+  key: 14710617437272555929
+  value: 5780182842082244857
+}
+AssetIdsOriginalToNew {
+  key: 15309716730528354328
+  value: 981551015587023881
+}
+AssetIdsOriginalToNew {
+  key: 16143453707696718719
+  value: 12175242327647616876
+}
+AssetIdsOriginalToNew {
+  key: 16676592459903630293
+  value: 2100973113798688993
+}
+AssetIdsOriginalToNew {
+  key: 17042516453398035872
+  value: 14894748380112245792
+}
+AssetIdsOriginalToNew {
+  key: 17207462250308931470
+  value: 1750840619243457387
+}
+AssetIdsOriginalToNew {
+  key: 17536332888242340562
+  value: 1796681742959049865
+}
+HasDirtyManifestAssets: true
